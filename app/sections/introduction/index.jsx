@@ -112,14 +112,14 @@ export function WelcomeSection() {
 							}}
 						>
 							<Link
-								href="#projects"
+								href="#tech"
 								onClick={onClick}
 								tabIndex="0"
 								className="btn"
 								aria-label="Latest projects"
 								style={{ backgroundColor: "#0277bd" }}
 							>
-								See my latest projects
+								View My Tech Stack
 							</Link>
 						</div>
 					</div>
