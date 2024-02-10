@@ -3,7 +3,7 @@ const description =
 	"Software developer from Moldova, Republic of, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
 const url = "https://i-am-suryansh-jain.netlify.app";
 export const AppMetadata = {
-	metadataBase: new URL("https://i-am-suryansh-jain.netlify.app/"),
+	metadataBase: new URL("https://suryansh-jain-portfolio.netlify.app/"),
 	title: {
 		default: `Portfolio | ${author}`,
 		template: `%s | ${author}`
@@ -29,13 +29,13 @@ export const AppMetadata = {
 		siteName: `${author} | Portfolio`,
 		images: [
 			{
-				url: "https://master--i-am-suryansh-jain.netlify.app/screenshot.webp",
+				url: "https://suryansh-jain-portfolio.netlify.app/screenshot.webp",
 				width: 800,
 				height: 600,
 				alt: "My personal portfolio website"
 			},
 			{
-				url: "https://master--i-am-suryansh-jain.netlify.app/screenshot.webp",
+				url: "https://suryansh-jain-portfolio.netlify.app/screenshot.webp",
 				width: 1800,
 				height: 1600,
 				alt: "My personal portfolio website"
