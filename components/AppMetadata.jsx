@@ -1,6 +1,6 @@
 const author = "Suryansh Jain";
 const description =
-	"Software developer from Moldova, Republic of, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
+	"Experienced Software Engineer working at Samsung, India. Love to build interactive and seamless UI using React and Next.js";
 const url = "https://i-am-suryansh-jain.netlify.app";
 export const AppMetadata = {
 	metadataBase: new URL("https://suryansh-jain-portfolio.netlify.app/"),
