@@ -1,14 +1,14 @@
 import { Suspense, useRef } from "react";
 import { domAnimation, LazyMotion, useInView } from "framer-motion";
 import Link from "next/link";
-import useSWR from "swr";
+
 import { HeadingDivider, Loader } from "components";
-import { fetcher } from "utils/fetcher";
+
 import Error from "../../error";
 import { ErrorBoundary } from "react-error-boundary";
 import { Projects } from "../../projects/components/Projects";
 import { SITE_ROUTES } from "../../../constants";
-import { LocalProjects } from "constants/projects"
+import { LocalProjects } from "constants/projects";
 
 // const url = `${process.env.NEXT_PUBLIC_SANITY_URL}${process.env.NEXT_PUBLIC_SANITY_LATEST_PROJECTS}`;
 
@@ -17,7 +17,8 @@ export function ProjectsSection() {
 	const isBtnInView = useInView(btnRef, { once: true });
 
 	// const { data, error } = useSWR(url, fetcher);
-	const projects = LocalProjects;
+	const projects = LocalProjects.slice(0, 3) || []; 
+	// Fetch from Sanity when API is working
 
 	// if (error && !data) {
 	// 	return null;

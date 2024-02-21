@@ -1,26 +1,81 @@
 export const LocalProjects = [
-    {
-        title: "Genius - AI-Enhanced Creative Gen SaaS Platform",
-        description: "Welcome to Madaura, a fully-responsive web application platform for students to lend, borrow, sell, and buy new and used items of different categories from each other.",
-        images: ["/Madaura1.jpg", "/Madaura2.jpg", "/Madaura3.jpg"],
-        liveUrl: "https://student-store-team-2.vercel.app",
-        repoUrl: "https://github.com/202306-NEA-DZ-FEW/student-store-team-2",
-        stack: ["Next.js", "TailwindCSS", "Supabase", "Firebase", "React Leaflet", "Cloudinary", "next-intl", "Jest"],
-      },
-    {
-      title: "So9ify: E-commerce Website",
-      description: "So9ify is an e-commerce website project that demonstrates the development of a functional online shopping platform. It provides users with the ability to browse, filter, products. The project focuses on building the frontend of the website using Next.js and Tailwind CSS.",
-      images: ["/So9ify1.jpg", "So9ify2.jpg", "So9ify3.jpg"],
-      liveUrl: "",
-      repoUrl: "https://github.com/Bolphunga/e-commerce-project-team-8",
-      stack: ["Next.js", "Firebase", "TailwindCSS", "API"],
-    },
-    {
-      title: "Cinepholie: Movie Database",
-      description: "Cinepholie leverages the TMDB (The Movie Database) API to present comprehensive information about movies and actors. Users can explore a rich database, accessing details about movies, including synopses, cast information, and other relevant data. The project showcases the integration of Next.js to build a dynamic and responsive web application that seamlessly retrieves and displays content from the TMDB API, offering an immersive experience for movie enthusiasts.",
-      images: ["/Cine1.jpg", "/Cine2.jpg", "/Cine3.jpg"],
-      liveUrl: "https://movie-project-cinephiles.vercel.app",
-      repoUrl: "https://github.com/202306-NEA-DZ-FEW/movie-project-cinephiles",
-      stack: ["Next.js", "REST API", "TailwindCSS", "NextUI", "MaterialUI"],
-    } 
-  ];
+	{
+		title: "Genius - AI-Enhanced Creative Gen SaaS Platform",
+		description:
+			"Welcome to Madaura, a fully-responsive web application platform for students to lend, borrow, sell, and buy new and used items of different categories from each other.",
+		images: ["/ai-saas-1.png"],
+		liveUrl: "https://student-store-team-2.vercel.app",
+		repoUrl: "https://github.com/202306-NEA-DZ-FEW/student-store-team-2",
+		stack: [
+			"Next.js",
+			"TailwindCSS",
+			"Supabase",
+			"Firebase",
+			"React Leaflet",
+			"Cloudinary",
+			"next-intl",
+			"Jest"
+		]
+	},
+	{
+		title: "Path Finding Algorithm Visualizer",
+		description:
+			"Interactive pathfinding visualizer featuring Dijkstra's, A*, BFS, and DFS algorithms. Build custom mazes with walls, reposition start/end nodes, and see animated pathfinding solutions.",
+		images: ["/pathFinding-1.png", "/pathFinding-2.png"],
+		liveUrl: "https://iamsuryansh.github.io/pathFinderVisualizer/",
+		repoUrl: "https://github.com/iamsuryansh/pathFinderVisualizer",
+		stack: ["ReactJs", "Bootstrap"]
+	},
+  {
+		title: "Tic Tac Toe",
+		description: "Tic Tac Toe game with next player and restart functionality",
+		images: ["/tic-tac-toe.jpg"],
+		width: 800,
+		height: 600,
+		liveUrl: "https://iamsuryansh.github.io/tic-tac-toe/",
+		repoUrl: "https://github.com/iamsuryansh/tic-tac-toe",
+		stack: ["ReactJs", "TailwindCSS", "GitHub"]
+	},
+	{
+		title: "Accordion component with React",
+		description: "Accordion components with multi select functionlaity",
+		images: ["/react-accordion-1.jpg", "/react-accordion-2.png", "/react-accordion-3.png"],
+		width: 800,
+		height: 600,
+		liveUrl: "https://iamsuryansh.github.io/react-accordion/",
+		repoUrl: "https://github.com/iamsuryansh/react-accordion",
+		stack: ["ReactJs", "TailwindCSS", "GitHub"]
+	},
+	{
+		title: "Star Rating",
+		description: "Star rating selector with hover select",
+		images: ["/star-rating.jpg"],
+		width: 800,
+		height: 600,
+		liveUrl: "https://iamsuryansh.github.io/star-rating/",
+		repoUrl: "https://github.com/iamsuryansh/star-rating",
+		stack: ["ReactJs", "TailwindCSS", "GitHub"]
+	},
+	{
+		title: "QR Code generator",
+		description: "Generate QR code for any link or text",
+		images: ["/qr-code-1.jpg", "/qr-code-2.jpg"],
+		width: 800,
+		height: 600,
+		liveUrl: "https://iamsuryansh.github.io/qr-code-generator/",
+		repoUrl: "https://github.com/iamsuryansh/qr-code-generator",
+		stack: ["ReactJs", "TailwindCSS", "GitHub"]
+	},
+	// {
+	// 	title: "Custom darkness tool",
+	// 	description:
+	// 		"A tool that allows developers to check how their custom component would look on different background colors",
+	// 	images: ["/darkness-1.jpg", "/darkness-2.jpg", "darkness-3.jpg"],
+	// 	width: 800,
+	// 	height: 600,
+	// 	liveUrl: "https://iamsuryansh.github.io/theme-switcher/",
+	// 	repoUrl: "https://github.com/iamsuryansh/theme-switcher",
+	// 	stack: ["ReactJs", "TailwindCSS", "GitHub"]
+	// },
+	
+];
