@@ -2,19 +2,17 @@ export const LocalProjects = [
 	{
 		title: "Genius - AI-Enhanced Creative Gen SaaS Platform",
 		description:
-			"Welcome to Madaura, a fully-responsive web application platform for students to lend, borrow, sell, and buy new and used items of different categories from each other.",
+			"Innovative AI SaaS platform using Next.js with creative workflows like Code Generation, Music Generation, Conversational AI, Video Generation and more. Robust authentication and seamless payment integration.",
 		images: ["/ai-saas-1.png"],
-		liveUrl: "https://student-store-team-2.vercel.app",
-		repoUrl: "https://github.com/202306-NEA-DZ-FEW/student-store-team-2",
+		liveUrl: "genius-saas-zeta.vercel.app",
+		repoUrl: "https://github.com/iamsuryansh/genius-saas",
 		stack: [
 			"Next.js",
 			"TailwindCSS",
-			"Supabase",
-			"Firebase",
-			"React Leaflet",
-			"Cloudinary",
-			"next-intl",
-			"Jest"
+			"Clerk",
+			"Prisma",
+			"OpenAI API",
+			"Stripe",
 		]
 	},
 	{
