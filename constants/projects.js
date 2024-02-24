@@ -25,6 +25,16 @@ export const LocalProjects = [
 		stack: ["ReactJs", "Bootstrap"]
 	},
 	{
+		title: "Wordle",
+		description: "Worlde game clone with animations and custom alerts for players",
+		images: ["/wordle-3.png", "/wordle-1.png", "wordle-2.png"],
+		width: 800,
+		height: 600,
+		liveUrl: "https://iamsuryansh.github.io/wordle/",
+		repoUrl: "https://github.com/iamsuryansh/wordle",
+		stack: ["Javascript", "CSS", "HTML"]
+	},
+	{
 		title: "Fylo - Landing Page",
 		description: "Fylo - File storage - Landing Page - Built as a part of Frontend Mentor Challenge",
 		images: ["/fylo-1.png", "/fylo-2.png", "/fylo-3.png"],
