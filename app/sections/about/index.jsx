@@ -17,14 +17,14 @@ export function AboutSection() {
 					<div
 						tabIndex="0"
 						ref={ref}
-						className="text-xl font-light leading-relaxed"
+						className="text-lg/8 font-light leading-relaxed"
 						style={{
 							transform: isInView ? "none" : "translateX(-200px)",
 							opacity: isInView ? 1 : 0,
 							transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 						}}
 					>
-						<p className="font-bold">My Journey:</p> 
+						<p className="font-bold text-xl/8">My Journey:</p> 
 						<p>My adventure in software engineering commenced during my time at Vellore
 						Institute of Technology. There, I delved into Python development, data analytics, and
 						visualization, gradually expanding into web development with mastery in HTML, CSS, JS,
