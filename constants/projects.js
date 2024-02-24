@@ -24,6 +24,26 @@ export const LocalProjects = [
 		repoUrl: "https://github.com/iamsuryansh/pathFinderVisualizer",
 		stack: ["ReactJs", "Bootstrap"]
 	},
+	{
+		title: "Fylo - Landing Page",
+		description: "Fylo - File storage - Landing Page - Built as a part of Frontend Mentor Challenge",
+		images: ["/fylo-1.png", "/fylo-2.png", "/fylo-3.png"],
+		width: 800,
+		height: 600,
+		liveUrl: "https://iamsuryansh.github.io/fylo-dark-landing-page/",
+		repoUrl: "https://github.com/iamsuryansh/fylo-dark-landing-page",
+		stack: ["Bootstrap", "HTML" ,"CSS"]
+	},
+	{
+		title: "Tindog - Tinder for Dogs",
+		description: "Landing page for Tindog - Tinder for Dogs",
+		images: ["/tindog-1.png", "/tindog-2.png", "/tindog-3.png"],
+		width: 800,
+		height: 600,
+		liveUrl: "https://iamsuryansh.github.io/tindog/",
+		repoUrl: "https://github.com/iamsuryansh/tindog",
+		stack: ["Bootstrap", "HTML" ,"CSS"]
+	},
   {
 		title: "Tic Tac Toe",
 		description: "Tic Tac Toe game with next player and restart functionality",
