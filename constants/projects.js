@@ -35,6 +35,16 @@ export const LocalProjects = [
 		stack: ["Javascript", "CSS", "HTML"]
 	},
 	{
+		title: "Covid-19 Dashboard",
+		description: "Interactive webpage to dynamically visualize and analyze COVID-19 case data in India, with enhanced functionality to delve into state-wise statistics. Developer with Python and Streamlit library",
+		images: ["/covid-1.png", "/covid-2.png", "/covid-3.png", "/covid-4.png"],
+		width: 800,
+		height: 600,
+		liveUrl: "https://suryansh-covid19.streamlit.app/",
+		repoUrl: "https://github.com/iamsuryansh/covid19",
+		stack: ["Python", "Streamlit"]
+	},
+	{
 		title: "Fylo - Landing Page",
 		description: "Fylo - File storage - Landing Page - Built as a part of Frontend Mentor Challenge",
 		images: ["/fylo-1.png", "/fylo-2.png", "/fylo-3.png"],
