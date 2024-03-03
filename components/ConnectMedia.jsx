@@ -17,6 +17,7 @@ export function ConnectMedia() {
 								aria-label={item.title}
 								title={item.title}
 								className="text-2xl"
+								
 							>
 								{item.icon}
 							</a>

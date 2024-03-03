@@ -1,6 +1,13 @@
 import { BsFillEnvelopeOpenFill, BsGithub, BsLinkedin } from "react-icons/bs";
+import { FaFileAlt } from "react-icons/fa";
 
 export const SOCIAL_MEDIA = [
+	{
+		id: "resume",
+		icon: <FaFileAlt />,
+		title: "My Resume",
+		url: "/SuryanshJainResume.pdf"
+	},
 	{
 		id: "linkedin",
 		icon: <BsLinkedin />,
