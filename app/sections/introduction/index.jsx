@@ -6,6 +6,7 @@ import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { WelcomeAnimation } from "./IntroAnimation";
 import { useScrollTo } from "hooks";
 import { useMediaQuery } from "utils";
+// import { BorderButton } from "../../../components/ui/moving-border";
 
 export function WelcomeSection() {
 	const ref = useRef(null);
@@ -19,7 +20,7 @@ export function WelcomeSection() {
 		"convert design into modern UI",
 		"build interactive UI using React",
 		"build backend using Python",
-		"develop websites using Next.js",
+		"develop websites using Next.js"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
@@ -111,16 +112,33 @@ export function WelcomeSection() {
 								transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 							}}
 						>
-							<Link
-								href="#tech"
-								onClick={onClick}
-								tabIndex="0"
-								className="btn"
-								aria-label="Latest projects"
-								style={{ backgroundColor: "#0277bd" }}
-							>
-								View My Tech Stack
-							</Link>
+							{/* <BorderButton
+								children={
+									<Link
+										href="#tech"
+										onClick={onClick}
+										tabIndex="0"
+										// className="btn"
+										aria-label="Tech Stack"
+									>
+										Tech Stack
+									</Link>
+								}
+							/>
+
+							<BorderButton
+								children={
+									<Link
+										href="#projects"
+										onClick={onClick}
+										tabIndex="0"
+										// className="btn"
+										aria-label="Latest projects"
+									>
+										Projects
+									</Link>
+								}
+							/> */}
 						</div>
 					</div>
 
