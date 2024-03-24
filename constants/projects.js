@@ -3,7 +3,7 @@ export const LocalProjects = [
 		title: "Genius - AI-Enhanced Creative Gen SaaS Platform",
 		description:
 			"Innovative AI SaaS platform using Next.js with creative workflows like Code Generation, Music Generation, Conversational AI, Video Generation and more. Robust authentication and seamless payment integration.",
-		images: ["/ai-saas-1.png"],
+		images: ["/ai-saas-1.png","/ai-saas-2.png","/ai-saas-3.png"],
 		liveUrl: "https://genius-saas-zeta.vercel.app",
 		repoUrl: "https://github.com/iamsuryansh/genius-saas",
 		stack: [
