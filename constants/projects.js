@@ -35,6 +35,16 @@ export const LocalProjects = [
 		stack: ["Javascript", "CSS", "HTML"]
 	},
 	{
+		title: "File Manager",
+		description: "File directory navigator UI with custom animation",
+		images: ["/file-manager-1.png", "/file-manager-2.png"],
+		width: 800,
+		height: 600,
+		liveUrl: "https://iamsuryansh.github.io/directory_navigation",
+		repoUrl: "https://github.com/iamsuryansh/directory_navigation",
+		stack: ["Typescript", "framer-motion"]
+	},
+	{
 		title: "Covid-19 Dashboard",
 		description: "Interactive webpage to dynamically visualize and analyze COVID-19 case data in India, with enhanced functionality to delve into state-wise statistics. Developer with Python and Streamlit library",
 		images: ["/covid-1.png", "/covid-2.png", "/covid-3.png", "/covid-4.png"],
