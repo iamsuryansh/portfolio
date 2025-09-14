@@ -1,6 +1,6 @@
 const author = "Suryansh Jain";
 const description =
-	"Experienced Software Engineer working at Samsung, India. Love to build interactive and seamless UI using React and Next.js";
+	"Software Engineer with 4 years of experience at Samsung Research Institute. Specialized in Python backend development, cloud infrastructure, and building production-ready systems that serve millions of users globally.";
 const url = "https://i-am-suryansh-jain.netlify.app";
 export const AppMetadata = {
 	metadataBase: new URL("https://suryansh-jain-portfolio.netlify.app/"),
@@ -14,10 +14,13 @@ export const AppMetadata = {
 	},
 	keywords: [
 		"Suryansh Jain",
-		"Suryansh Jain - software developer",
-		"Frontend developer",
-		"Portfolio website",
-		"Frontend Developer Portfolio"
+		"Suryansh Jain - software engineer",
+		"Backend developer",
+		"Python developer",
+		"Samsung engineer",
+		"Software Engineer Portfolio",
+		"FastAPI developer",
+		"AWS cloud engineer"
 	],
 	creator: author,
 	authors: [{ name: author, url: url }],

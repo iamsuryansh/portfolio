@@ -17,10 +17,10 @@ export function WelcomeSection() {
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
-		"convert design into modern UI",
-		"build interactive UI using React",
-		"build backend using Python",
-		"develop websites using Next.js"
+		"build scalable backend services",
+		"architect robust Python APIs",
+		"develop cloud-native solutions",
+		"design event-driven systems"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
@@ -53,7 +53,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Suryansh</mark> a <mark>passionate</mark> software developer.
+								Hi, I&apos;m <mark>Suryansh</mark>, a <mark>Software Engineer</mark> with 4 years of experience.
 							</p>
 						</h1>
 
@@ -102,7 +102,7 @@ export function WelcomeSection() {
 								backgroundColor: "light-blue"
 							}}
 						>
-							Stick around to know more about me.
+							Specializing in Python backend development, cloud infrastructure, and building production-ready systems.
 						</p>
 						<div
 							ref={ref}

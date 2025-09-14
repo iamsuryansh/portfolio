@@ -4,11 +4,11 @@ import { useEffect, useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 
 const TimeLineData = [
-	{ year: 2022, text: "Software Engineer at Samsung R&D Institute, India" },
+	{ year: 2022, text: "Software Engineer at Samsung Research Institute, India" },
 	{ year: 2021, text: "Developer at Standard Chartered Bank GBS" },
-	// { year: 2021, text: "Graduated with a GPA of 8.96" },
-	{ year: 2019, text: "Summer-Intern at Bharti Airtel Ltd." },
-	{ year: 2017, text: "B.Tech Undergrad  at VIT, Vellore" }
+	{ year: 2021, text: "B.Tech Graduate from VIT, Vellore (GPA: 8.96)" },
+	{ year: 2019, text: "Summer Intern at Bharti Airtel Ltd." },
+	{ year: 2017, text: "Started B.Tech in Electronics & Communication Engineering" }
 ];
 
 export function TimeLine() {

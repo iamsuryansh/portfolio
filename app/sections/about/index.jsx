@@ -24,32 +24,33 @@ export function AboutSection() {
 							transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
 						}}
 					>
-						<p className="font-bold text-xl/8">My Journey:</p> 
-						<p>My adventure in software engineering commenced during my time at Vellore
-						Institute of Technology. There, I delved into Python development, data analytics, and
-						visualization, gradually expanding into web development with mastery in HTML, CSS, JS,
-						and eventually, React. </p>
+						<p className="font-bold text-xl/8">Professional Journey:</p> 
+						<p>Software Engineer with 4 years of experience building and deploying robust, scalable 
+						backend services from concept to production. Currently at Samsung Research Institute, 
+						where I architect and develop production systems that serve millions of users globally.</p>
 						<br></br>
-						<p className="font-bold">Professional Experience:</p> 
-						<p>Post-graduation, I embarked on my
-						professional voyage at Standard Chartered as a Developer, immersing myself in the
-						captivating realm of blockchain development using Solidity. Contributing to the
-						integration of smart contracts with our Blockchain on demand tool, I honed my skills in
-						this cutting-edge technology.</p> 
-						<p>Transitioning to Samsung, India as a Software Engineer, I
-						dived into tool development for test automation with ReactJS and Python, alongside Tizen
-						app development using Javascript. Each day presents new challenges and opportunities for
-						growth in this dynamic environment. </p>
+						<p className="font-bold">Current Role & Impact:</p> 
+						<p>At Samsung, I've led the development of critical infrastructure including the Tizen 
+						Certification Engine (reducing certification time by 80% across 450+ applications), 
+						implemented RAG pipelines for semantic search (50% faster than existing solutions), 
+						and engineered the backend powering the global Tizen App Store with comprehensive RBAC systems.</p>
 						<br></br>
-						<p className="font-bold">Beyond the Desk: </p>
-						<p>Outside the confines of my
-						professional life, I&apos;ve spearheaded notable technical projects such as developing an AI
-						SaaS platform and a React-based path-finding algorithm visualizer. </p>
-						<p>Additionally, I
-						co-founded The Comedy Club at VIT, reflecting my passion for humor and community. When
-						not submerged in code, you&apos;ll find me indulging in interests spanning from Formula 1 and
-						blockchain to travel and devouring the latest in technology through reviews and
-						documentaries.</p>
+						<p className="font-bold">Technical Expertise:</p> 
+						<p>Proficient with Python (FastAPI, Flask), SQL and NoSQL databases, and modern DevOps 
+						tools including CI/CD pipelines, Docker containerization, and AWS cloud infrastructure. 
+						I excel at taking full project ownership and collaborating with cross-functional teams 
+						in Agile environments to deliver high-quality, reliable solutions.</p>
+						<br></br>
+						<p className="font-bold">Recognition & Achievements:</p> 
+						<p>Received Samsung Spot Award twice for impactful development and process optimization. 
+						Previously at Standard Chartered, won "Best Project" award for blockchain platform 
+						development out of 12 teams. My work has consistently delivered measurable improvements 
+						in system performance, user experience, and operational efficiency.</p>
+						<br></br>
+						<p className="font-bold">Beyond Work:</p> 
+						<p>When not architecting backend systems, I contribute to open-source projects like my 
+						production-ready RAG platform, stay current with emerging technologies, and enjoy 
+						Formula 1, blockchain innovations, and travel experiences.</p>
 					</div>
 				</div>
 

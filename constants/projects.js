@@ -1,5 +1,19 @@
 export const LocalProjects = [
 	{
+		title: "Plug and Play RAG",
+		description:
+			"Developed an open-source, production-ready RAG platform to allow developers to rapidly build and deploy custom Q&A systems. The FastAPI backend, containerized with Docker, supports streaming responses from LLMs like Gemini and connects to enterprise databases (PostgreSQL, MongoDB)",
+		images: ["/plug_and_play_rag.png"],
+		repoUrl: "https://github.com/iamsuryansh/plug_and_play_rag",
+		stack: [
+			"FastAPI",
+			"Docker",
+			"Gemini LLM",
+			"PostgreSQL",
+			"MongoDB"
+		]
+	},
+	{
 		title: "Genius - AI-Enhanced Creative Gen SaaS Platform",
 		description:
 			"Innovative AI SaaS platform using Next.js with creative workflows like Code Generation, Music Generation, Conversational AI, Video Generation and more. Robust authentication and seamless payment integration.",
@@ -13,20 +27,6 @@ export const LocalProjects = [
 			"Prisma",
 			"OpenAI API",
 			"Stripe",
-		]
-	},
-	{
-		title: "Plug and Play RAG",
-		description:
-			"Developed an open-source, production-ready RAG platform to allow developers to rapidly build and deploy custom Q&A systems. The FastAPI backend, containerized with Docker, supports streaming responses from LLMs like Gemini and connects to enterprise databases (PostgreSQL, MongoDB)",
-		images: ["/plug_and_play_rag.png"],
-		repoUrl: "https://github.com/iamsuryansh/plug_and_play_rag",
-		stack: [
-			"FastAPI",
-			"Docker",
-			"Gemini LLM",
-			"PostgreSQL",
-			"MongoDB"
 		]
 	},
 	{
