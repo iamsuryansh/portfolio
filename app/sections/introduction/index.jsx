@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-import Link from "next/link";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { WelcomeAnimation } from "./IntroAnimation";
 import { useScrollTo } from "hooks";
@@ -12,7 +11,6 @@ export function WelcomeSection() {
 	const ref = useRef(null);
 	const introRef = useRef(null);
 	const isInView = useInView(ref, { once: true });
-	const { scrollToEl } = useScrollTo();
 	const isTabletUp = useMediaQuery("min-width: 768px");
 
 	let [count, setCount] = useState(0);
@@ -23,7 +21,6 @@ export function WelcomeSection() {
 		"design event-driven systems"
 	]);
 
-	const onClick = (e) => scrollToEl(e);
 
 	useEffect(() => {
 		let interval = setInterval(() => {

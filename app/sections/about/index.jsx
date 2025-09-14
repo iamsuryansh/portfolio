@@ -30,7 +30,7 @@ export function AboutSection() {
 						where I architect and develop production systems that serve millions of users globally.</p>
 						<br></br>
 						<p className="font-bold">Current Role & Impact:</p> 
-						<p>At Samsung, I've led the development of critical infrastructure including the Tizen 
+						<p>At Samsung, I&apos;ve led the development of critical infrastructure including the Tizen 
 						Certification Engine (reducing certification time by 80% across 450+ applications), 
 						implemented RAG pipelines for semantic search (50% faster than existing solutions), 
 						and engineered the backend powering the global Tizen App Store with comprehensive RBAC systems.</p>
@@ -43,7 +43,7 @@ export function AboutSection() {
 						<br></br>
 						<p className="font-bold">Recognition & Achievements:</p> 
 						<p>Received Samsung Spot Award twice for impactful development and process optimization. 
-						Previously at Standard Chartered, won "Best Project" award for blockchain platform 
+						Previously at Standard Chartered, won &quot;Best Project&quot; award for blockchain platform 
 						development out of 12 teams. My work has consistently delivered measurable improvements 
 						in system performance, user experience, and operational efficiency.</p>
 						<br></br>
