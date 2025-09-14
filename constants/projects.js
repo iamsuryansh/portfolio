@@ -14,6 +14,20 @@ export const LocalProjects = [
 		]
 	},
 	{
+		title: "Automated Resume Generator & Template Engine",
+		description:
+			"End-to-end solution for generating professional resumes from structured data. Built with Python and LaTeX to eliminate manual formatting, support version control for resume content, and enable rapid customization. Includes example configurations, comprehensive testing, and deployment automation.",
+		images: ["/resume_generator.png"],
+		repoUrl: "https://github.com/iamsuryansh/resume_generator",
+		stack: [
+			"Python",
+			"LaTeX",
+			"YAML",
+			"GitHub Actions",
+			"PDF Generation"
+		]
+	},
+	{
 		title: "Genius - AI-Enhanced Creative Gen SaaS Platform",
 		description:
 			"Innovative AI SaaS platform using Next.js with creative workflows like Code Generation, Music Generation, Conversational AI, Video Generation and more. Robust authentication and seamless payment integration.",
