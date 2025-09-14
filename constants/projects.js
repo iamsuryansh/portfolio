@@ -16,6 +16,20 @@ export const LocalProjects = [
 		]
 	},
 	{
+		title: "Plug and Play RAG",
+		description:
+			"Developed an open-source, production-ready RAG platform to allow developers to rapidly build and deploy custom Q&A systems. The FastAPI backend, containerized with Docker, supports streaming responses from LLMs like Gemini and connects to enterprise databases (PostgreSQL, MongoDB)",
+		images: ["/plug_and_play_rag.png"],
+		repoUrl: "https://github.com/iamsuryansh/plug_and_play_rag",
+		stack: [
+			"FastAPI",
+			"Docker",
+			"Gemini LLM",
+			"PostgreSQL",
+			"MongoDB"
+		]
+	},
+	{
 		title: "Path Finding Algorithm Visualizer",
 		description:
 			"Interactive pathfinding visualizer featuring Dijkstra's, A*, BFS, and DFS algorithms. Build custom mazes with walls, reposition start/end nodes, and see animated pathfinding solutions.",
