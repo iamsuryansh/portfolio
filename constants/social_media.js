@@ -6,7 +6,7 @@ export const SOCIAL_MEDIA = [
 		id: "resume",
 		icon: <FaFileAlt />,
 		title: "My Resume",
-		url: "/SuryanshJainResume.pdf"
+		url: "https://iamsuryansh.github.io/resume-auto-sync/"
 	},
 	{
 		id: "linkedin",
