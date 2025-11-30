@@ -50,7 +50,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Suryansh</mark>, a <mark>Software Engineer</mark> who makes servers sing and databases dance.
+								Hi, I&apos;m <mark>Suryansh</mark>, a <mark>Software Engineer</mark>.
 							</p>
 						</h1>
 
